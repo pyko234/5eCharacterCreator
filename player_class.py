@@ -60,7 +60,7 @@ class Character:
 
         #self.SelectAbilityScores()
 
-        #SelectRace(self)
+        SelectRace(self)
         self.clear_screen()
         for _ in range(3):
             print(f"The Athletics roll is: {self.GetSkillCheck('Athletics')}")
